@@ -9,7 +9,6 @@ import SwiftUI
 import HealthKit
 
 struct ContentView: View {
-    
     private var healtStore: HealthStore?
     @State private var stepsLastSevenDays: Double = 0;
     @State private var stepsThisMorning: Double = 0;
